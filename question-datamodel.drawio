@@ -5,13 +5,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vtkwlR-6-ObZbNOf8sKe-4" value="User Profile" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="350" width="200" height="200" as="geometry" />
+          <mxGeometry x="40" y="50" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="vtkwlR-6-ObZbNOf8sKe-5" value="Poll" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="180" width="200" height="200" as="geometry" />
+          <mxGeometry x="280" y="40" width="360" height="340" as="geometry" />
         </mxCell>
         <mxCell id="vtkwlR-6-ObZbNOf8sKe-7" value="Question Stash" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="440" width="200" height="200" as="geometry" />
+          <mxGeometry x="40" y="400" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vtkwlR-6-ObZbNOf8sKe-8" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vtkwlR-6-ObZbNOf8sKe-9" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vtkwlR-6-ObZbNOf8sKe-10" value="Poll Metadata" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
