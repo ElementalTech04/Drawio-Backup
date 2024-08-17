@@ -4,23 +4,44 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vtkwlR-6-ObZbNOf8sKe-4" value="User Profile" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vtkwlR-6-ObZbNOf8sKe-4" value="Submission" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="50" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vtkwlR-6-ObZbNOf8sKe-5" value="Poll" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vtkwlR-6-ObZbNOf8sKe-5" value="Poll" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="40" width="360" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="vtkwlR-6-ObZbNOf8sKe-7" value="Question Stash" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="un_e8U4SEy0G9f7kHzMc-1" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;PollID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;PollName&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;PollAlias&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;PollMetadataID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="vtkwlR-6-ObZbNOf8sKe-5">
+          <mxGeometry x="-10" y="35" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="un_e8U4SEy0G9f7kHzMc-2" value="&lt;b&gt;Fields&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vtkwlR-6-ObZbNOf8sKe-5">
+          <mxGeometry x="20" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vtkwlR-6-ObZbNOf8sKe-7" value="Question Stash" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vtkwlR-6-ObZbNOf8sKe-8" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="un_e8U4SEy0G9f7kHzMc-4" value="&lt;ul&gt;&lt;li&gt;QuestionID&lt;/li&gt;&lt;li&gt;Header&lt;/li&gt;&lt;li&gt;SubHeader&lt;/li&gt;&lt;li&gt;Body&lt;/li&gt;&lt;li&gt;Media&lt;/li&gt;&lt;li&gt;MediaType&lt;/li&gt;&lt;li&gt;ResponseType&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vtkwlR-6-ObZbNOf8sKe-7">
+          <mxGeometry x="-20" y="60" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vtkwlR-6-ObZbNOf8sKe-8" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="400" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vtkwlR-6-ObZbNOf8sKe-9" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vtkwlR-6-ObZbNOf8sKe-9" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="400" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vtkwlR-6-ObZbNOf8sKe-10" value="Poll Metadata" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vtkwlR-6-ObZbNOf8sKe-10" value="Poll Metadata" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="un_e8U4SEy0G9f7kHzMc-6" value="&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;PollMetadataID&lt;/li&gt;&lt;li style=&quot;&quot;&gt;UserCreated&lt;/li&gt;&lt;li style=&quot;&quot;&gt;LastModified&lt;/li&gt;&lt;li style=&quot;&quot;&gt;LastUserModified&lt;/li&gt;&lt;li style=&quot;font-weight: 700;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vtkwlR-6-ObZbNOf8sKe-10">
+          <mxGeometry x="-10" y="35" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="un_e8U4SEy0G9f7kHzMc-7" value="&lt;b&gt;Fields&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vtkwlR-6-ObZbNOf8sKe-10">
+          <mxGeometry x="20" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="un_e8U4SEy0G9f7kHzMc-3" value="&lt;b&gt;Fields&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="438" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="un_e8U4SEy0G9f7kHzMc-5" value="&lt;ul&gt;&lt;li&gt;ButtonText&lt;/li&gt;&lt;li&gt;ButtonActions&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="438" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
